@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Reemplaza con tu cadena de conexión de MongoDB Atlas
-const uri = "mongodb+srv://<USER>:<PASSWORD>@cluster0.mzhoetl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.mzhoetl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 async function uploadData() {
     const client = new MongoClient(uri);
